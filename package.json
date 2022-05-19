@@ -1,0 +1,43 @@
+{
+  "name": "shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "dev": "webpack -w --mode=development",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanDKim/Shopify_Frontend_Techincal_Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanDKim/Shopify_Frontend_Techincal_Challenge/issues"
+  },
+  "homepage": "https://github.com/DylanDKim/Shopify_Frontend_Techincal_Challenge#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "axios": "^0.27.2",
+    "babel-loader": "^8.2.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "openai": "^2.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
